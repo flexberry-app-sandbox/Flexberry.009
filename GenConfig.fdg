@@ -26,8 +26,8 @@
     },
     "Backend": {
       "AspNet": true,
-      "AspNetCore": true,
-      "Java": true
+      "AspNetCore": false,
+      "Java": false
     },
     "Docker": {
       "Dockerfile": true,
