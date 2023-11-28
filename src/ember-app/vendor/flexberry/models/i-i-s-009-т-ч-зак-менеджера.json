@@ -1,0 +1,33 @@
+﻿{
+  "name": "IIS009ТЧЗакМенеджера",
+  "modelName": "i-i-s-009-т-ч-зак-менеджера",
+  "className": "ТЧЗакМенеджера",
+  "nameSpace": "IIS.009",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "действия_для_устранения_проблемы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "закМенеджера",
+      "relatedTo": "i-i-s-009-зак-менеджера",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

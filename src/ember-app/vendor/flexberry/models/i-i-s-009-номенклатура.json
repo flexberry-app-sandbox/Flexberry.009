@@ -1,0 +1,47 @@
+﻿{
+  "name": "IIS009Номенклатура",
+  "modelName": "i-i-s-009-номенклатура",
+  "className": "Номенклатура",
+  "nameSpace": "IIS.009",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "товар",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "закМенеджера",
+      "relatedTo": "i-i-s-009-зак-менеджера",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "инженер",
+      "relatedTo": "i-i-s-009-инженер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "отчетОТестПК",
+      "relatedTo": "i-i-s-009-отчет-о-тест-п-к",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

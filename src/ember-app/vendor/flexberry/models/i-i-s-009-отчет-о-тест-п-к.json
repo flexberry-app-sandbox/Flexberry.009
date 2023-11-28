@@ -1,0 +1,15 @@
+﻿{
+  "name": "IIS009ОтчетОТестПК",
+  "modelName": "i-i-s-009-отчет-о-тест-п-к",
+  "className": "ОтчетОТестПК",
+  "nameSpace": "IIS.009",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
